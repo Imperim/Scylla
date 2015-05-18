@@ -29,3 +29,7 @@
 
 # Sublime
 *.sublime*
+
+# Directories
+Build/
+Bin/
