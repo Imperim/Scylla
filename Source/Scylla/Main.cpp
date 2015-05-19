@@ -1,10 +1,12 @@
 #include <iostream>
-#include <SDL.h>
-#undef main
+#include <Platform/WindowConfig.h>
 
-int main(int argc, char* argv[])
-{
-	std::cout << "Hello, Scylla!" << std::endl;
+int main(int argc, char* argv[]) {
+	WindowConfig cfg;
+	cfg.SetTitle("Hello, Scylla")
+	   .SetSize({800, 600});
 
-	return 0;
+	std::cout << cfg.Size().x << " " << cfg.Size().y << std::endl;
+
+	return 0; 
 }
