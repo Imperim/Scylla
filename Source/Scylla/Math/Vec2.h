@@ -139,4 +139,4 @@ template <typename T> inline bool operator !=(const Vec2<T>& left, const Vec2<T>
 // Define the most common types of Vec2
 typedef Math::Vec2<int32_t> 	Vec2i;
 typedef Math::Vec2<uint32_t> 	Vec2u;
-typedef Math::Vec2<float>		Vec2f;
+typedef Math::Vec2<float>	Vec2f;
